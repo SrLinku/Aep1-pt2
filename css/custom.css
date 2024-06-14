@@ -1,0 +1,172 @@
+/* Fundo definitivo */
+.red-background {
+  background-color: #F00006 !important;
+  color: white !important;
+}
+
+/* Borda fixa */
+.fix-borda {
+  border-width: 2px 2px !important;
+}
+
+/* Bordas de quadros */
+.borda {
+  border-color: #F00006 !important;
+}
+
+/* Altere a cor da barra lateral para cinza claro */
+#sidebar-wrapper {
+  background-color: #d3d3d3;
+}
+
+#sidebar-wrapper .sidebar-heading {
+  background-color: #d3d3d3;
+}
+
+#sidebar-wrapper .list-group-item {
+  background-color: #d3d3d3;
+}
+
+/* Mantenha o texto em uma cor que tenha bom contraste com o fundo */
+#sidebar-wrapper .list-group-item {
+  color: #333;
+  /* Cor do texto */
+}
+
+#sidebar-wrapper .list-group-item:hover {
+  background-color: #c0c0c0;
+  /* Cinza um pouco mais escuro ao passar o mouse */
+  color: #000;
+  /* Cor do texto ao passar o mouse */
+}
+
+/* Rodapé no topo */
+.red-footer {
+  background-color: #F00006;
+  color: rgb(0, 0, 0);
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.exit {
+  margin-left: 2%;
+  /* Icone de saida */
+  color: white;
+  font-size: 25px;
+  margin-bottom: 15px;
+}
+
+.user {
+  /* Texto nome do usuario */
+  margin-left: -10px;
+  margin-bottom: -80px;
+  color: white;
+}
+
+.usericon {
+  /* Icone do usuario */
+  margin-left: 80%;
+  color: white;
+  margin-right: -50px;
+  margin-bottom: 15px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilo para a classe container */
+.container {
+  display: grid;
+  grid-template-columns: 1fr 300px;
+  /* Quadros à esquerda, tabela à direita */
+  grid-gap: 20px;
+  padding: 20px;
+}
+
+/* Estilo para a classe main-content */
+.main-content {
+  display: grid;
+  grid-gap: 20px;
+  grid-auto-flow: row;
+  /* Para empilhar os elementos na vertical */
+}
+
+
+/* Estilo para a classe box */
+.box {
+  background-color: #f2f2f2;
+  border: 1px solid #ccc;
+  padding: 9px;
+}
+
+#tabela {
+  width: 410%;
+  /* Definindo largura total */
+}
+
+/* Estilo para a tabela */
+table {
+  width: 100%;
+}
+
+/* Estilo para o cabeçalho da tabela */
+th {
+  background-color: #f2f2f2;
+}
+
+/* Estilo para as células da tabela */
+td {
+  padding: 8px;
+  border-bottom: 10px solid #ddd;
+}
+
+/* Estilo para as linhas pares da tabela */
+tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Estilo para as linhas ímpares da tabela */
+tbody tr:nth-child(odd) {
+  background-color: #fff;
+}
+
+.content-preview {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  max-height: 1.2em; /* Para manter uma linha de texto */
+}
+
+/* botão de ver mais */
+.ver-mais {
+  display: inline-block;
+  margin-top: 10px;
+  background-color: #F00006;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-left: auto;
+  margin-right: 0;
+  display: block;
+}
+
+.ver-mais:hover {   /* Fundo do botão */
+  background-color: #F00006;
+}
+
+.content-container {
+  text-align: left;
+  position: relative;
+  padding-bottom: 40px; 
+}
+
+p {
+  margin-bottom: 40px;
+}
+
